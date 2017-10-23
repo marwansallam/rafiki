@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rafiki</title>
+		<link rel="stylesheet" type="text/css" href="style/slick.css">
+		<link rel="stylesheet" type="text/css" href="style/slick-theme.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/responsive.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/slick.min.js"></script>
+	</head>
+	<body>
+		<div class="signUpBanner">
+			<img src="images/signUp/signUp.png">
+			<div class="layeOut"></div>
+			<div class="signUpLogo">
+				<a href="">
+					<img src="images/homePage/logo.png">
+				</a>
+			</div>
+			<div class="whatTheySaySlider">
+				<span>What they say about us?</span>
+				<div class="whatTheySayHolder">
+					<div class="whatTheySayStrat">
+						<div class="whatTheySayImg">
+							<img src="images/homePage/man.jpg">
+						</div>
+						<div class="whatTheySayTitle">
+							<h1>Patrick Creighton</h1>
+						</div>
+						<div class="parentOrChild">
+							<span>Parent</span>
+						</div>
+						<div class="whatTheySayContent">
+							<p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
+						</div>
+				</div>
+					<div class="whatTheySayStrat">
+						<div class="whatTheySayImg">
+							<img src="images/homePage/man.jpg">
+						</div>
+						<div class="whatTheySayTitle">
+							<h1>Patrick otefy</h1>
+						</div>
+						<div class="parentOrChild">
+							<span>Parent</span>
+						</div>
+						<div class="whatTheySayContent">
+							<p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.whatTheySayHolder').slick({
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					lazyLoad: 'ondemand',
+					easing: 'linear',
+					dots: false,
+					arrows: true,
+					fade: true,
+					autoplay: true,
+					// autoplaySpeed: 3000,
+				});
+			});
+		</script>
+	</body>
+</html>

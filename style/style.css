@@ -21,6 +21,15 @@
 }
 
 @font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
 	font-family: 'TitilliumWeb-Black';
 	src: url('../fonts/TitilliumWeb-Black.eot');
 	src: url('../fonts/TitilliumWeb-Black.eot?#iefix') format('embedded-opentype'),
@@ -948,7 +957,7 @@ input-placeholder,
 }
 .oneUnit{
 	float: left;
-	width: calc(33.333% - 15px);
+	width: calc(33.333% - 13px);
 	margin-right: 19.5px;
 	margin-bottom: 25px;
 }
@@ -957,7 +966,7 @@ input-placeholder,
 }
 .oneUnitDetails{
 	float: left;
-	width: 100%;
+	width: calc(100% - 2px);
 	border-radius: 3px;
   border: solid 1px #e3e3e3; 
 }
@@ -1776,3 +1785,336 @@ p.rate{
 .numOfDays span:first-child{
 	font-size: 30px;
 }
+
+/*-------------team-------------------*/
+.avatar{
+	float: left;
+}
+.avatar img{
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	float: left;
+	margin-right: 19px;
+	border-radius: 50%;
+}
+.avatar p{
+	float: left;
+	background-image: url(../images/down-arrow.png);
+	background-size: 9px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 19px;
+	cursor: pointer;
+	margin: 14px 0 0 0;
+}
+.avatar p span{
+	float: left;
+	font-family: 'Montserrat-Medium';
+	font-size: 14px;
+  color: #222328;
+}
+.innerTitle.mainTitle h1{
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+.innerPageContent{
+	float: left;
+	width: 100%;
+	margin-top: 48px;
+}
+.allEmployees{
+	float: left;
+	width: 100%;
+}
+.singleEmployee{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.singleEmployee:last-child{
+	margin-bottom: 100px;
+}
+.employeeImage{
+	float: left;
+	width: 140px;
+  height: 140px;
+  border: solid 2px #4f92c9;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.employeeImage img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.employeesDetails{
+	float: left;
+	width: calc(100% - 164px);
+}
+.employeesDetails h1{
+	font-size: 22px;
+  text-align: left;
+  color: #29597a;
+  font-family: 'Titillium-SemiBold';
+  float: left;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.employeesDetails span{
+	font-size: 15px;
+  float: left;
+  font-family: 'Titillium-Regular';
+  color: #a8acb9;
+  width: 100%;
+}
+.employeesDetails p{
+	font-size: 15px;
+	margin: 11px 0 0;
+  line-height: 1.73;
+  font-family: 'Titillium-Regular';
+  float: left;
+  width: 100%;
+  color: #222328;
+}
+.innerImage{
+	float: left;
+	width: 100%;
+
+}
+/*-----------static--------------*/
+.innerImage{
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.innerImage img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.innerPageData {
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+}
+.innerPageData p{
+	margin: 0;
+	width: 100%;
+	font-size: 15px;
+  line-height: 1.6;
+  float: left;
+  color: #222328;
+  font-family: 'Titillium-Regular';
+  margin: 0;
+}
+/*-------------Our Blog--------------*/
+.layeOut{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.blogDetails{
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+	top: 79px;
+	width: 470px;
+	z-index: 2;
+}
+.blogDate{
+	float: left;
+	width: 100%;
+}
+.blogDate span{
+	font-size: 12px;
+  letter-spacing: 1.2px;
+  float: left;
+  color: #ffffff; 
+  margin-right: 6px;
+}
+.blogDetails h1{
+	font-size: 56px;
+  font-weight: 900;
+  line-height: 1.05;
+  float: left;
+  color: #ffffff;
+  margin: 10px 0;
+}
+.blogDetails p{
+	font-size: 15px;
+  line-height: 1.6;
+  float: left;
+  color: #ffffff;
+  font-family: 'Titillium-Regular';
+  margin: 30px 0 14px;
+}
+.innerPageContent .threeUnits .oneUnit .oneUnitDetails .singleEventDetails{
+	  width: 100%;
+    padding: 26px 0 10px;
+}
+.innerPageContent .threeUnits .oneUnit .oneUnitDetails {
+	width: 100%;
+	border: none;
+}
+.innerPageContent .threeUnits .oneUnit .oneUnitDetails .oneUnitImage:before{
+	content: none;
+}
+.innerPageContent .threeUnits .oneUnit .oneUnitDetails .singleEventDetails h1{
+	font-size: 24px;
+	font-family: 'TitilliumWeb-Bold';
+	white-space: initial;
+	margin-bottom: 9px;
+}
+.innerPageContent .threeUnits .oneUnit .oneUnitDetails .singleEventDetails p{
+	font-size: 15px;
+  line-height: 1.6;
+  float: left;
+  font-family: 'Titillium-Regular';
+  color: #222328;
+  height: 96px;
+  overflow: hidden;
+}
+.innerPageContent .loadMore{
+	margin-bottom: 100px;
+}
+/*----------------signUp-----------------*/
+.signUpBanner{
+	float: left;
+	width: 520px;
+	height: 100vh;
+	position: relative;
+	margin-right: 46px;
+}
+.signUpBanner img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.signUpBanner .layeOut{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+	background-color: transparent;
+}
+.signUpLogo{
+	position: absolute;
+	left: 50px;
+	z-index: 2;
+	top: 14px;
+	width: 100px;
+}
+.signUpLogo a img, .signUpLogo a{
+	float: left;
+	width: 100%;
+}
+.whatTheySaySlider{
+	position: absolute;
+	left: 50px;
+	bottom: 45px;
+	display: inline-block;
+	z-index: 2;
+}
+.whatTheySaySlider span{
+	width: 100%;
+	font-size: 20px;
+  float: left;
+  color: #ffffff;
+  font-family: 'Titillium-Regular';
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.whatTheySayHolder{
+	float: left;
+	width: 330px;
+	margin-top: 25px;
+}
+.whatTheySayImg, 
+.whatTheySayTitle,
+.parentOrChild,
+.whatTheySayContent,
+.whatTheySayStrat{
+	float: left;
+	width: 100%;
+}
+.whatTheySayImg img{
+	width: 90px;
+	height: 90px;
+	float: left;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.whatTheySayTitle{
+	margin-top: 10px;
+}
+.whatTheySayTitle h1{
+	font-size: 16px;
+  line-height: 1.5;
+  float: left;
+  color: #ffffff;
+  margin: 0;
+}
+.parentOrChild{
+	margin-top: 6px;
+}
+.parentOrChild span{
+	font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  float: left;
+  color: #ffffff;
+}
+.whatTheySayContent{
+	margin-top: 17px;
+}
+.whatTheySayContent p{
+	font-size: 14px;
+  line-height: 1.5;
+  float: left;
+  color: #ffffff;
+  margin: 0;
+}
+.slick-next{
+	right: -100px;
+	width: 30px;
+  height: 30px;
+  background-image: url(../images/signUp/rightArrowLarg.png);
+}
+.slick-next:hover, .slick-next:focus {
+  color: transparent;
+  outline: none;
+  background:  url(../images/signUp/rightArrowLarg.png);
+}
+.slick-next:before,
+.slick-prev:before {
+  content: none;
+}
+.slick-prev{
+	left: -50px;
+	width: 30px;
+  height: 30px;
+  background-image: url(../images/signUp/leftArrowLarg.png);
+}
+.slick-prev:hover, .slick-prev:focus {
+  color: transparent;
+  outline: none;
+  background:  url(../images/signUp/leftArrowLarg.png);
+}
+.slick-slide{
+	outline: none;
+}
+
+
+
+
+
+
+
+
