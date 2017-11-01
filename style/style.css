@@ -717,6 +717,7 @@ input-placeholder,
 	position: initial;
 	padding-top: 20px;
 	width: 100%;
+	float: left;
 }
 .header.innerPage .menu .logo{
 	position: initial;
@@ -2110,11 +2111,369 @@ p.rate{
 .slick-slide{
 	outline: none;
 }
+.signUpContainer{
+	width: calc(100% - 611px);
+	padding-right: 45px;
+	float: left;
+	text-align: center;
+}
+.joinRafiki{
+  	display: inline-block;
+	width: 505px;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 53px;
+}
+.joinRafiki h1{
+	font-family: 'TitilliumWeb-Bold';
+	margin: 0;
+	font-size: 48px;
+  	color: #222328;
+  	display: inline-block;
+}
+.joinRafiki p{
+	font-size: 16px;
+  	line-height: 1.31;
+  	display: inline-block;
+  	color: #4f5362;
+  	margin-bottom: 42px;
+}
+.joinRafiki span{
+	font-size: 14px;
+  	line-height: 2;
+  	display: inline-block;
+  	color: #4f5362;
+  	width: 100%;
+  	margin-bottom: 27px;
+}
+.signUpWtithSocialMidea{
+	display: inline-block;
+	width: 49px;
+	font-size: 14px;
+  	color: #ffffff;
+  	padding: 12px 35px 12px 66px;
+  	background-position: left 32px center;
+  	background-repeat: no-repeat;
+  	border-radius: 99px;
+  	margin-right: 15px;
+  	font-family: 'Montserrat-Light';
+}
+.socialMideaTW{
+	background-image: url(../images/singleEvent/twitter.png);
+	background-color: #55acee;
+	background-size: 18px;
+}
+.socialMideaFB{
+	background-image: url(../images/signUp/fb.png);
+	background-color: #3a5898;
+  	padding: 12px 35px 12px 52px;
+  	width: 63px;
+}
+.socialMideaG{
+	margin-right: 0;
+	background-image: url(../images/signUp/g.png);
+	background-color: #df4a38;
+}
+.signUpForm{
+	width: 679px;
+	display: inline-block;
+}
+.orWithBorder{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.orWithBorder span{
+	width: 310px;
+	float: left;
+	height: 1px;
+  	opacity: 0.5;
+  	background-color: #a8acb9;
+  	margin-top: 7px;
+}
+.orWithBorder span:nth-child(2){
+	font-size: 12px;
+	margin-top: 0;
+ 	padding: 0 20px;
+ 	color: #a8acb9;
+ 	width: auto;
+ 	height: auto;
+ 	opacity: 1;
+  	background-color: #ffffff;
 
+}
+.signUpForm form .signUpFormUnit{
+	float: left;
+	width: calc(33.3333% - 23px);
+	margin-right: 34.5px;
+}
+.signUpForm form .signUpFormUnit:nth-child(3){
+	margin-right: 0;
+}
+.signUpForm form .signUpFormUnit label{
+	float: left;
+	text-align: left;
+	width: calc(100% - 15px);
+	padding-left: 15px;
+	font-family: 'Titillium-Regular';
+  	font-size: 12px;
+  	line-height: 2.33;
+  	letter-spacing: 1.2px;
+  	color: #a8acb9;
+  	margin-bottom: 8px;
+}
+.signUpForm form .signUpFormUnit input{
+	border-radius: 100px;
+  background-color: #eff0f4;
+  font-family: 'Montserrat-Light';
+  font-size: 14px;
+  line-height: 1.5;
+  width: calc(100% - 30px);
+  float: left;
+  color: #4f5362;
+   padding: 11px 15px 11px 15px!important;
+   border: none;
+   outline: none;
+	margin-bottom: 26px;
+}
+.signUpForm form .signUpFormUnit input[type="password"]{
+	font-size: 20px;
+   padding: 0 15px!important;
+   height: 42.89px;
+}
+.signUpForm form .signUpFormUnit select{
+	border-radius: 100px;
+  background-color: #eff0f4;
+  float: left;
+  width: 100%;
+   padding: 13px 18px 13px 14px;
+  padding-left: 15px;
+  font-family: 'Montserrat-Light';
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4f5362;
+}
+.signUpForm .formUnit{
+	width: auto;
+	float: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.signUpForm .formUnit span, .signUpForm .formUnit span a{
+  font-family: 'Montserrat-Light';
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: initial;
+  color: #4f5362;
+}
+.signUpForm .formUnit span a{
+	font-family: 'Montserrat-Regular';
+	border-bottom: 1px solid #4f5362;
+  line-height: 1;
+  cursor: pointer;
+}
+.signUpForm .formUnit input[type="checkbox"]:not(:checked) + span:before, 
+.signUpForm .formUnit input[type="checkbox"]:checked + span:before {
+    border: 2px solid #43cb83;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+.signUpForm .formUnit input[type="checkbox"]:not(:checked), 
+.signUpForm .formUnit input[type="checkbox"]:checked {
+    width: 19px;
+}
+.row{
+	float: left;
+	width: 100%;
+}
+.row .globalBtn{
+	float: none;
+	background-image: none;
+	font-size: 14px;
+	width: 260px;
+	margin-top: 21px;
+	letter-spacing: 1.4px;
+}
+.logIn{
+	float: left;
+	width: 100%;
+	text-align: center;
+	 font-size: 14px;
+	  line-height: 2;
+	  color: #4f5362;
+	  font-family: 'Montserrat-Light';
+	  margin-top: 35px;
+}
+.logIn a{
+	font-family: 'Montserrat-Regular';
+	 font-size: 14px;
+	  line-height: 2;
+	  color: #4f5362;
+	  text-decoration: underline;
+}
+/*---------------------------------*/
+.sideMenu{
+  width: 220px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  float: left;
+  border: solid 1px #e3e3e3;
+  padding: 20px 0;
+  margin-right: 20px;
+}
+.sideMenu li{
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+.sideMenu a{
+	float: left;
+	width: calc(100% - 11px);
+	padding: 6px 0 6px 20px;
+	margin-bottom: 3px;
+	 font-size: 15px;
+  float: left;
+  color: #272727;
+  font-family: 'Titillium-SemiBold';
+}
+.sideMenu li.active a{
+	background-color: #d62155;
+	color: #ffffff;
+	background-image: url(../images/right-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 12px;
+	background-position: right 13px center
+}
+.accountSettingHolder{
+	float: left;
+	width: calc(100% - 242px);
+}
+.accountSetting{
+	float: left;
+	width: 320px;
+}
+.accountSetting span{
+	font-size: 15px;
+  float: left;
+  width: 100%;
+  color: #29597a;
+      font-family: 'Titillium-SemiBold';
+      margin: 5px 0 23px;
+}
+form .fullUnit{
+	width: 100%;
+	float: left;
+	margin-bottom: 14px;
+}
+form .fullUnit label{
+	width: calc(100% - 21px);
+	padding-left: 21px;
+	float: left;
+	font-size: 12px;
+  line-height: 2.33;
+  letter-spacing: 1.2px;
+  color: #a8acb9;
+  font-family: 'Titillium-Regular';
+}
+form .fullUnit input{
+	border-radius: 100px;
+  background-color: #eff0f4;
+  border: none;
+  width: calc(100% - 42px);
+  padding: 12px 21px;
+  float: left;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Montserrat-Light';
+  color: #4f5362;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+form .fullUnit .twoUnit{
+	float: left;
+	width: calc(50% - 5px);
+	margin-right: 10px;
+}
+form .fullUnit .twoUnit:nth-child(even){
+	margin-right: 0;
+}
+form .fullUnit .twoUnit:last-of-type input{
+	background-color: #ffffff;
+  background-color: var(--white);
+  box-shadow: 0 9px 18px 0 rgba(168, 172, 185, 0.62);
+}
+form .fullUnit .globalBtn{
+	width: 100%;
+	background-color: #d62155;
+	margin-top: 40px;
+	color: #ffffff;
+}
+.border{
+	float: left;
+	width: 100%;
+	height: 1px;
+	background-color: #d8d8d8;
+	margin-top: 35px;
+}
+.changeEmail{
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+}
+.changeEmail .innerTitle h1{
+	font-size: 15px;
+}
+.changeEmail p{
+	 font-size: 15px;
+  font-family: 'Titillium-SemiBold';
+  color: #272727;
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.changeEmail a{
+	font-size: 15px;
+  font-family: 'Titillium-SemiBold';
+  color: #d62155;
+  float: left;
+  width: 100%;
+}
+.socialAccounts{
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+.socialAccounts .innerTitle h1{
+	font-size: 15px;
+}
+.accountSetting .signUpWtithSocialMidea{
+	text-align: center;
+	margin-right: 0;
+	width: 150px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.accountSetting .signUpWtithSocialMidea.socialMideaFB,
+.accountSetting .signUpWtithSocialMidea{
+	padding: 12px 35px 12px 35px;
 
-
-
-
+}
+.signUpWtithSocialMidea.connected:after{
+	content: '';
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: #3a5898;
+    width: 20px;
+    height: 20px;
+    background-size: 18px;
+    background-image: url(../images/delete.png);
+    background-repeat: no-repeat;
+}
 
 
 
