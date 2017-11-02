@@ -256,7 +256,7 @@ form input[type=email] {
   color: #4f5362;
  	font-family: 'Montserrat-Regular';
 }
-:-moz-placeholder {
+:-moz-placeholder { 
 	font-size: 14px;
   text-align: left;
   color: #4f5362;
@@ -362,7 +362,7 @@ form input[type=submit] {
   background-image: url(../images/homePage/facebook.png);
  	background-repeat: no-repeat;
  	background-position: top 12px left 34px;
-}
+} 
 .fourUnits{
 	float: left;
 	width: 100%;
@@ -524,11 +524,11 @@ background-image: linear-gradient(125deg, #d62155, #f4f431);
 .whyUseSteps{
 	margin-top: 50px;
 	float: left;
-	width: 100%;
+	width: 100%; 
 }
 .whyUseStep{
 	float: left;
-	width: 100%;
+	width: 100%; 
 	margin-bottom: 20px;
 }
 .whyUseStep .icon{
@@ -676,11 +676,11 @@ background-image: linear-gradient(125deg, #d62155, #f4f431);
   background-repeat: no-repeat;
   background-position: left 18px center;
 }
-.getStartedForm input[type=email]{
+.getStartedForm input[type=email]{    
 	margin-right: 20px;
 	background-image: url(../images/homePage/message.png);
 }
-.getStartedForm input[type=password]{
+.getStartedForm input[type=password]{    
 	margin-right: 20px;
  	float: left;
 	background-image: url(../images/homePage/lock.png);
@@ -698,7 +698,7 @@ background-image: linear-gradient(125deg, #d62155, #f4f431);
  	padding: 15px 51px;
  	height: 46.8px;
  }
-input-placeholder,
+input-placeholder, 
 ::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
@@ -724,7 +724,7 @@ input-placeholder,
 	float: left;
 	padding-right: 20px;
 	margin-right: 30px;
-	border-right: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8; 
 }
 .header.innerPage .menu{
 	margin-top: 0;
@@ -874,7 +874,7 @@ input-placeholder,
 	cursor: pointer;
 }
 .singleForm.accordion.active form{
-	height: auto;
+	height: auto; 
 	opacity: 1;
 	transition: ease-in-out 1s;
 }
@@ -969,7 +969,7 @@ input-placeholder,
 	float: left;
 	width: calc(100% - 2px);
 	border-radius: 3px;
-  border: solid 1px #e3e3e3;
+  border: solid 1px #e3e3e3; 
 }
 .oneUnitImage{
 	float: left;
@@ -1200,7 +1200,7 @@ p.rate{
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: 0; 
 	z-index: 99;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
 }
@@ -1398,7 +1398,7 @@ p.rate{
 .sponsorImage{
 	display: inline-block;
 	width: 94px;
-	height: 94px;
+	height: 94px; 
 	padding: 3px;
 	border: 1px solid #e3e3e3;
 	background-color: #ffffff;
@@ -1558,7 +1558,7 @@ p.rate{
 	transition: ease-in-out .3s;
 }
  .schedule .eventDateAndTime.active p{
- 	color:#ffffff;
+ 	color:#ffffff; 
  	transition: ease-in-out .3s;
  }
  .schedule .eventDateAndTime.active [type="radio"]:checked + label:after{
@@ -1695,7 +1695,7 @@ p.rate{
 
 }
 .footerSocialIcon a:last-child{
-	margin-right: 0;
+	margin-right: 0;	
 }
 .footerSocialIcon a img{
 	float: left;
@@ -1713,7 +1713,7 @@ p.rate{
 	float: left;
 	width: 100%;
 	margin-top: 33px;
-}
+} 
 .siteMapSingleUnit form input[type=email]{
 	width: 239px;
 	border-radius: 100px;
@@ -1940,7 +1940,7 @@ p.rate{
 	font-size: 12px;
   letter-spacing: 1.2px;
   float: left;
-  color: #ffffff;
+  color: #ffffff; 
   margin-right: 6px;
 }
 .blogDetails h1{
@@ -1992,7 +1992,6 @@ p.rate{
 .signUpBanner{
 	float: left;
 	width: 520px;
-	/*height: 100vh;*/
 	position: relative;
 	margin-right: 46px;
 }
@@ -2037,7 +2036,7 @@ p.rate{
 	width: 330px;
 	margin-top: 25px;
 }
-.whatTheySayImg,
+.whatTheySayImg, 
 .whatTheySayTitle,
 .parentOrChild,
 .whatTheySayContent,
@@ -2273,14 +2272,14 @@ p.rate{
   line-height: 1;
   cursor: pointer;
 }
-.signUpForm .formUnit input[type="checkbox"]:not(:checked) + span:before,
+.signUpForm .formUnit input[type="checkbox"]:not(:checked) + span:before, 
 .signUpForm .formUnit input[type="checkbox"]:checked + span:before {
     border: 2px solid #43cb83;
     background: #fff;
     border-radius: 50%;
     box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
 }
-.signUpForm .formUnit input[type="checkbox"]:not(:checked),
+.signUpForm .formUnit input[type="checkbox"]:not(:checked), 
 .signUpForm .formUnit input[type="checkbox"]:checked {
     width: 19px;
 }
@@ -2313,7 +2312,7 @@ p.rate{
 	  color: #4f5362;
 	  text-decoration: underline;
 }
-/*---------------------------------*/
+/*-----------accountSettings------------*/
 .sideMenu{
   width: 220px;
   border-radius: 3px;
@@ -2389,10 +2388,10 @@ form .fullUnit input{
   font-family: 'Montserrat-Light';
   color: #4f5362;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 form .fullUnit .twoUnit{
 	float: left;
@@ -2473,4 +2472,251 @@ form .fullUnit .globalBtn{
     background-size: 18px;
     background-image: url(../images/delete.png);
     background-repeat: no-repeat;
+}
+/*---------------contact-------------*/
+.threeQuarter{
+	float: left;
+	width: 454px;
+}
+.threeQuarter .innerTitle h1{
+  font-family: 'TitilliumWeb-Bold';
+  font-size: 42px;
+}
+.threeQuarter .innerTitle p{
+	font-family: 'Titillium-Regular';
+	float: left;
+	width: 100%;
+	 font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  color: #4f5362;
+  margin: 0;
+}
+.feelFree{
+	float: left;
+}
+.feelFree .globalBtn{
+	margin-top: 45px;
+}
+.allShareIcon{
+	float: left;
+	width: 100;
+	margin-top: 20px;
+}
+.allShareIcon ul{
+	float: left;
+	list-style: none;
+	padding: 0;
+	width: calc(100% - 25px);
+	padding-right: 25px;
+}
+.allShareIcon ul li {
+	float: left;
+	width: 50%;
+	margin-bottom: 31px;
+
+}
+.allShareIcon ul li:nth-child(even){
+	float: right;
+	text-align: right;
+}
+.allShareIcon ul li:first-child {
+  letter-spacing: 1.6px;
+}
+.allShareIcon ul li a{
+  color: #4f5362;
+  float: left;
+}
+.allShareIcon ul li:nth-child(even) a{
+	float: right;
+}
+.allShareIcon ul li img{
+	display: inline-block;
+	width: 20px;
+	margin-top: 5px;
+	float: left;
+	margin-right: 18px;
+}
+.allShareIcon ul li span{
+	display: inline-block;
+	font-family: 'Montserrat-Light';
+	font-size: 16px;
+	line-height: 1.75;
+  color: #4f5362;
+}
+.quarter{
+	float: right;
+	padding: 33px 50px;
+	width: 280px;
+	height: 690px;
+	margin-bottom: 100px;
+	position: relative;
+	background-image: url(../images/map.png);
+	background-size: cover;
+}
+.officeAddress{
+	float: left;
+	width: 100%;
+	margin: 0 0 54px;
+}
+.officeAddress h1{
+	font-size: 12px;
+  line-height: 2.33;
+  letter-spacing: 1.2px;
+  float: left;
+  width: 100%;
+  margin: 0 0 4px;
+  color: #4f92c9;
+  font-family: 'Montserrat-Regular';
+}
+.officeAddress p{
+	font-family: 'Titillium-Regular';
+  font-size: 18px;
+  line-height: 1.33;
+  float: left;
+  color: #ffffff;
+  margin: 0;
+}
+.quarter .globalBtn{
+	position: absolute;
+	bottom: 31px;
+	left: calc(50% - 116px);
+}
+/*--------------referral-------------*/
+.referral{
+	float: left;
+	width: calc(100% - 160px);
+	padding: 35px 80px;
+	background-image: url(../images/referralBG.png);
+	background-size: cover;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.referral .innerTitle h1{
+	width: 100%;
+	font-size: 35px;
+	line-height: 0.86;
+	margin-bottom: 0;
+}
+.referral .innerTitle h2{
+	font-size: 20px;
+  line-height: 1.5;
+  float: left;
+  width: 100%;
+  color: #29597a;
+	font-family: 'Titillium-SemiBold';
+	margin: 8px 0 0;
+}
+.referral .innerTitle p{
+	font-family: 'Titillium-Regular';
+  font-size: 15px;
+  text-align: center;
+  color: #222328;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.referral .innerTitle p a{
+	color: #4f92c9; 
+	text-decoration: underline; 
+}
+.referral .getStartedForm{
+	margin-top: 30px;	
+	padding-bottom: 30px;
+}
+.referral .getStartedForm form{
+	width: 100%;	
+}
+.referral .getStartedForm form label{
+	width: calc(100% - 20px);
+	padding-left: 20px;	
+	float: left;
+	text-align: left;
+	font-family: 'Titillium-Regular';
+  font-size: 12px;
+  line-height: 2.33;
+  letter-spacing: 1.2px;
+  color: #222328;
+}
+.referral .getStartedForm input[type=email] {
+	width: calc(100% - 268px);
+	background-image: none;
+	border-radius: 100px;
+	padding-left: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.referral .orWithBorder span{
+	background-color: #4f92c9;
+	float: none;
+	display: inline-block;
+}
+.referral .orWithBorder span:nth-child(2){
+	background-color: #ffffff;
+	color: #4f92c9;
+}
+.shareYourLink{
+	display: inline-block;
+	width: 380px;
+}
+.shareYourLink span{
+	font-family: 'Titillium-SemiBold';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  float: left;
+  width: 100%;
+  color: #29597a;
+}
+.shareYourLink p{
+	width: 100%;
+	float: left;
+	border-radius: 100px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Montserrat-Light';
+  color: #4f5362;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin: 20px 0; 
+}
+.shareNow{
+	text-align: center;
+}
+.shareNow a{
+	display: inline-block;
+	margin-right: 20px;
+	padding: 12px 25px 12px 59px;
+	font-family: 'Montserrat-Light';
+	width: 66px;
+  	font-size: 14px;
+  	border-radius: 100px;
+  	color: #ffffff;
+  	background-position: left 25px center;
+	background-repeat: no-repeat;
+	background-size: 18px;
+}
+
+
+
+.shareNow a:last-child{
+	margin-right: 0;
+}
+.shareNow a.Whatsapp{
+	background-color: #25d366;
+	background-image: url(../images/whats.png);
+}
+
+.shareNow a.Twitter{
+	background-color: #55acee;
+	background-image: url(../images/singleEvent/twitter.png);
+}
+.shareNow a.fb{
+	background-color: #3a5898;
+	background-image: url(../images/singleEvent/fb.png);
+}
+.shareNow a.email{
+	background-color: #4a4a4a;
+	background-image: url(../images/WhiteMessage.png);
 }
