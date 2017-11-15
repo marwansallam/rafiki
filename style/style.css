@@ -208,6 +208,11 @@ body{
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+.textSlider{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
 .sliderDetailsText p{
 	font-family: 'TitilliumWeb-Light';
 	font-size: 35px;
@@ -216,11 +221,12 @@ body{
   text-align: center;
   display: inline-block;
   margin-top: 0;
-  width: 100%;
   margin-bottom: 15px;
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
 .sliderDetailsText span{
   font-size: 16px;
   letter-spacing: 1.6px;
@@ -1110,7 +1116,7 @@ p.rate{
 }
 .whoIsGoing{
 	float: left;
-	width: calc(100% - 16px);
+	width: calc(100% - 18px);
 	padding: 6px 8px;
 	border-radius: 3px;
   background-color: #f2f2f2;
@@ -1178,6 +1184,7 @@ p.rate{
 .content.singleEvent .aSide{
 	margin-left: 20px;
 	margin-right: 0;
+	float: right;
 }
 .watchVideo{
 	float: left;
@@ -1694,7 +1701,7 @@ p.rate{
 	float: left;
 
 }
-.footerSocialIcon a:last-child{
+.footerSocialIcon a:last-of-type{
 	margin-right: 0;	
 }
 .footerSocialIcon a img{
@@ -1989,11 +1996,18 @@ p.rate{
 	margin-bottom: 100px;
 }
 /*----------------signUp-----------------*/
+.signUpBannerHolder{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 520px;
+}
 .signUpBanner{
 	float: left;
-	width: 520px;
+	width: 100%;
+	height: 100%;
 	position: relative;
-	margin-right: 46px;
 }
 .signUpBanner img{
 	float: left;
@@ -2115,6 +2129,7 @@ p.rate{
 	padding-right: 45px;
 	float: left;
 	text-align: center;
+	margin-left: 566px;
 }
 .joinRafiki{
   	display: inline-block;
@@ -2500,7 +2515,7 @@ form .fullUnit .globalBtn{
 }
 .allShareIcon{
 	float: left;
-	width: 100;
+	width: 100%;
 	margin-top: 20px;
 }
 .allShareIcon ul{
@@ -2654,6 +2669,7 @@ form .fullUnit .globalBtn{
 .referral .orWithBorder span:nth-child(2){
 	background-color: #ffffff;
 	color: #4f92c9;
+	background-color: transparent;
 }
 .shareYourLink{
 	display: inline-block;
@@ -2697,9 +2713,6 @@ form .fullUnit .globalBtn{
 	background-repeat: no-repeat;
 	background-size: 18px;
 }
-
-
-
 .shareNow a:last-child{
 	margin-right: 0;
 }
@@ -2719,4 +2732,64 @@ form .fullUnit .globalBtn{
 .shareNow a.email{
 	background-color: #4a4a4a;
 	background-image: url(../images/WhiteMessage.png);
+}
+
+
+
+.content.eventListPage .container{
+	position: relative;
+}
+.aSideMenu{
+	float: left;
+	width: 20px;
+	margin: 15px;
+	display: none;
+	cursor: pointer;
+	transition: ease-in-out .3s;
+}
+.aSideMenu span{
+	width: 100%;
+	transition: ease-in-out .3s;
+	height: 2px;
+	float: left;
+	margin-bottom: 4px;
+	background-color: #ffffff; 
+}
+.aSide.active{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999999999;
+	width: 100%;
+	margin-right: 0;
+	transition: ease-in-out .3s;
+}
+.aSide.active .singleForm{
+	display: inline-block;
+	opacity: 1;
+	transition: ease-in-out .3s;
+}    
+.aSide.active .aSideMenu {
+	margin-top: 30px;
+	float: right;
+	transition: ease-in-out .3s;
+}
+.aSide.active .aSideMenu span{
+	height: 1px;
+}
+.aSide.active .aSideMenu span:nth-of-type(2){
+	display: none;
+}
+.aSide.active .aSideMenu span:nth-of-type(1){
+	transform: rotate(49deg);
+	transition: ease-in-out .3s;
+}
+.aSide.active .aSideMenu span:nth-of-type(3){
+	transform: rotate(-49deg);
+    margin-top: -5px;
+    transition: ease-in-out .3s;
+}
+.phoneHolder{
+	display: inline-block;
 }

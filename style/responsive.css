@@ -1,1 +1,768 @@
-responsive.css
+@media screen and (max-width: 1290px){
+    .container {
+     	width: 1100px;   
+    }
+    .experiencesAndOrganizationsDetails p {
+	    width: 400px;
+	}
+	.experiencesAndOrganizations .thirdUnit {
+	    width: calc(33.3333% - 59px);
+	}
+	.signUpContainer{
+		margin-left: 540px;
+		width: calc(100% - 560px);
+    	padding-right: 20px;
+	}
+	.signUpForm{
+		width: 100%;
+	}
+	.signUpForm .orWithBorder span {
+	    width: 292px;
+	}
+	.signUpForm  .orWithBorder span:nth-child(2){
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1203px){
+	.signUpForm  .orWithBorder span{
+		display: none;
+	}
+	.signUpForm  .orWithBorder span:nth-child(2){
+		display: inline-block;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 1160px){
+	.container {
+		width: 950px;
+	}
+	.homeSlider {
+    	height: 737px;
+	}
+	.sliderDetailsText{
+		margin-bottom: 60px;
+	}
+	.thirdUnit{
+		width: calc(33.3333% - 110px);
+	    float: left;
+	    margin-right: 165px;
+	}
+	.titleGradient{
+		font-size: 42px;
+	}
+	.experiencesAndOrganizationsDetails p {
+    	width: 350px;
+	}
+	.fourUnits .fourUnit:last-of-type{
+		margin-right: 0;
+	}
+	.asSeenInPlaces a {
+	    margin-right: 30px;
+	}
+	.getStartedForm input[type=email], 
+	.getStartedForm input[type=password] {
+	    width: 297px;
+	}
+	.followUs {
+	    width: 300px;
+	}
+	.siteMapSingleUnit form input[type=email] {
+	    width: 210px;
+	}
+	.siteMapSingleUnit {
+	    width: 200px;
+	}
+	.siteMap {
+	    width: 600px;
+	}
+	.homeSlider {
+	    height: auto;
+	}
+	.signUpForm form .signUpFormUnit {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.signUpForm form .signUpFormUnit:nth-child(3) {
+	    margin-bottom: 26px;
+	}
+	.joinRafiki{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.sliderDetails{
+		top: 120px;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	.signUpWtithSocialMidea{
+		width: calc(100% - 101px);
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.socialMideaFB {
+	    padding: 12px 35px 12px 66px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.container{
+		width: 850px;
+	}
+	.fourUnit {
+	    width: calc(20% - 15px);
+	    margin-right: 20px;
+	}
+	.sliderDetailsText h1, .sliderDetailsText p{
+		font-size: 25px;
+	}
+	.sliderDetailsText span{
+		font-size: 14px;
+	}
+	.sliderDetailsText {
+	    margin-bottom: 30px;
+	}
+	.thirdUnit {
+	    width: calc(33.3333% - 77px);
+	    margin-right: 115px;
+	}
+	.experiencesAndOrganizationsDetails p {
+	    width: 250px;
+	}
+	.asSeenInPlaces a {
+	    margin-bottom: 30px;
+	}
+	.getStartedForm input[type=email], .getStartedForm input[type=password] {
+	    width: 247px;
+	}
+	.siteMap {
+	    width: 540px;
+	}
+	.siteMapSingleUnit {
+	    width: 180px;
+	}
+	.aSide{
+		width: 50px;
+		transition: ease-in-out .3s;
+	}
+	.aSideMenu{
+		display: inline-block;
+		transition: ease-in-out .3s;
+	}
+	.singleForm{
+		transition: ease-in-out .3s;
+		display: none;
+		opacity: 0;
+	}
+	.eventList {
+	    float: left;
+	    width: calc(100% - 70px);
+	}
+	.content.singleEvent .aSide{
+		width: 220px;
+	}
+	.singleEvent .eventList{
+		width: calc(100% - 240px);
+	}
+}
+@media screen and (max-width: 935px){
+	.signUpBannerHolder{
+		width: 420px;
+	}
+	.whatTheySaySlider{
+		right: 0;
+	}
+	.slick-next{
+		right: -35px;
+	}
+	.signUpContainer {
+	    margin-left: 440px;
+	    width: calc(100% - 460px);
+	}
+}
+@media screen and (max-width: 900px){
+	.container{
+		width: 750px;
+	}
+	.homeSlider .slick-list{
+		height: 585px;
+	}
+	.homeSlider .slick-track{
+		height: 100%;
+	}
+	.fourUnitImg{
+		height: 120px;
+	}
+	.icon {
+	    width: 150px;
+	    height: 150px;
+	}
+	.titleGradient {
+	    font-size: 30px;
+	}
+	.getStartedForm input[type=email], .getStartedForm input[type=password] {
+	    width: 200px;
+	}
+	.getStartedForm input[type=submit]{
+		padding: 15px 48px;
+
+	}
+	.howItWorksDetails{
+		width: auto;
+	}
+	.siteMap {
+	    width: 480px;
+	}
+	.siteMapSingleUnit {
+	    width: 160px;
+	}
+	.followUs {
+	    width: 270px;
+	}
+	.siteMapSingleUnit form input[type=email] {
+	    width: 180px;
+	}
+	.copyRight{
+		margin: 40px 0;
+	}
+	.oneUnit {
+	    width: calc(50% - 13px);
+	    margin-right: 26px;
+	}
+	.oneUnit:nth-child(3n) {
+	    margin-right: 26px;
+	}
+	.oneUnit:nth-child(even){
+		margin-right: 0;
+	}
+	.faceBook p{
+		font-size: 16px;
+		width: 320px;
+		margin-top: 0;
+		background-size: auto;
+	}
+	.threeQuarter{
+		width: 427px;
+	}
+	.quarter {
+    	padding: 20px 20px;
+    	width: 220px;
+    	height: 500px;
+	}
+	.referral{
+		width: calc(100% - 20px);
+		padding: 35px 10px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: calc(100% - 20px);
+		padding: 0 10px;
+	}
+	.thirdUnit {
+	    width: 33.3333%;
+	    margin-right: 0;
+	}
+	.thirdUnitDetails {
+	    display: inline-block;
+	    width: 85%;
+	    float: none;
+	}
+	.globalBtn{
+		margin-top: 30px;
+	}
+	.getStartedForm input[type=email], 
+	.getStartedForm input[type=password] {
+	    width: 25%;
+	}
+	.getStartedForm input[type=submit] {
+	    padding: 15px 25px;
+	}
+	.siteMap {
+	    width: 100%;
+	}
+	.siteMapSingleUnit {
+	    width: 33.3333%;
+	    text-align: center;
+	}
+	.siteMapSingleUnit h1{
+		text-align: center;
+	}
+	.siteMapSingleUnit ul, .siteMapSingleUnit ul li {
+	    text-align: center;
+	}
+	.siteMapSingleUnit ul li a {
+	    float: none;
+	    display: inline-block;
+	}
+	.footerSocialIcon a {
+	    float: none;
+	    display: inline-block;
+	}
+	.footerSocialIcon {
+	    margin: 8px 0 30px;
+	}
+	.followUs {
+	    float: none;
+	    display: inline-block;
+	    margin-top: 60px;
+	}
+	.footer{
+		text-align: center;
+	}
+	.innerImage{
+		height: 350px;
+	}
+	.quarter {
+	    width: calc(100% - 40px);
+	    height: 300px;
+	    margin-bottom: 30px;
+	}
+	.threeQuarter {
+	    width: 100%;
+	}
+	.feelFree {
+	    width: 100%;
+	    text-align: center;
+	}
+	.feelFree .globalBtn {
+	    margin-top: 30px;
+	}
+	.allShareIcon ul{
+		width: 100%;
+		padding-right: 0;
+	}
+	.referral .orWithBorder span{
+		display: none;
+	}
+	.referral .orWithBorder span:nth-child(2){
+		display: inline-block;
+	}
+	.shareNow a {
+	    margin-right: 0;
+	    width: 50%;
+	    margin-bottom: 15px;
+	    color: #ffffff;
+	}
+	.content.singleEvent .aSide {
+	    width: 100%;
+	    margin-left: 0;
+	    margin-bottom: 20px;
+	}
+	.singleEvent .eventList {
+	    width: 100%;
+	}
+	.sponsorRate{
+		width: 100%;
+	}
+	.sponsorRate p.rate{
+		float: none;
+		display: inline-block;
+	}
+	.signUpBannerHolder{
+		display: none;
+	}
+	.signUpContainer {
+	    margin-left: 20px;
+	    width: calc(100% - 40px);
+	}
+}
+
+@media screen and (max-width: 670px){
+	.titleGradient {
+	    width: 100%;
+	    text-align: center;
+	}
+	.leftSide .titleGradient{
+		text-align: left;
+	}
+	.experiencesAndOrganizationsDetails p {
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 25px;
+	}
+	.experiencesAndOrganizations .thirdUnit {
+	    width: 33.33333%;
+	    margin-right: 0;
+	}
+	.logo{
+		top: 80px;
+	}
+	.sliderDetails {
+	    top: 220px;
+	}
+	.fourUnits {
+	    transform: translateY(0);
+	    margin-top: 25px;
+	    margin-bottom: 40px;
+	}
+	.experiencesAndOrganizations .howItWorks {
+	    margin-top: 20px;
+	}
+	.sliderDetails{
+		width: 100%;
+	}
+	.fourUnit {
+	    width: calc(50% - 15px);
+	}
+	.fourUnit:nth-of-type(even){
+		margin-right: 0;
+	}
+	.logo a, .logo a img {
+	    margin-right: 0;
+	}
+	.header.innerPage .menu .logo {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	}
+	.logo{
+		width: 90px;
+		height: auto;
+	}
+	.header.innerPage .menu> a{
+		margin-top: 16px;
+	}
+	.header.innerPage .menu.otherSide {
+	    margin-top: 2px;
+	}
+	.faceBook p {
+	    width: 230px;
+	}
+}
+
+@media screen and (max-width: 620px){
+	.getStartedForm input[type=email], .getStartedForm input[type=password] {
+	    width: calc(100% - 58px);
+	    margin-right: 0;
+	    margin-bottom: 25px;
+	}
+	.getStartedForm input[type=submit]{
+		float: none;
+		display: inline-block;
+	}
+	.innerPageContent {
+	    margin-top: 20px;
+	}
+
+	.sideMenu {
+	    width: 140px;
+	}
+	.accountSettingHolder {
+	    width: calc(100% - 162px);
+	}
+	.accountSetting{
+		width: 100%;
+	}
+	.innerPage .menu a{
+		margin-right: 4px;
+	}
+	.avatar img{
+		margin-right: 9px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.whyUse{
+		padding: 20px 0;
+	}
+	.leftSide {
+	    width: auto; 
+	}
+	form input[type=email],
+	form select{
+		width: 38%;
+	}
+	.sliderDetails {
+	    width: 95%;
+	}
+	.form {
+	    width: 100%;
+	}
+	form input[type=email]{
+	    width: calc(100% - 40px);
+	    border-radius: 100px;
+	    padding: 16px 15px 16px 25px;
+	    margin-bottom: 15px;
+	}
+	 form select {
+	 	width: 100%;
+	    border-radius: 100px;
+	    margin-bottom: 15px;
+	 }
+	 form{
+	 	text-align: center;
+	 }
+	 form input[type=submit]{
+	 	float: none;
+	 	display: inline-block;
+	 	border-radius: 100px;
+	 }
+	 .header{
+	 	top: 0;
+	 }
+	 .menu a{
+	 	font-size: 12px;
+	 	margin-right: 10px;
+	 }
+	 .sliderDetails {
+	    top: 180px;
+	}
+	.sliderDetailsText h1, .sliderDetailsText p {
+	    font-size: 18px;
+	    margin-bottom: 10px;
+	}
+	.or span:before, .or span:after{
+		content: none;
+	}
+	.or span{
+		padding: 0;
+	}
+	.or {
+	    margin-top: 0;
+	}
+	.sliderDetailsText {
+	    margin-bottom: 18px;
+	}
+	.thirdUnit,
+	.experiencesAndOrganizations .thirdUnit {
+	    width: 100%;
+	    min-height: auto;
+	    margin-bottom: 30px;
+	}
+	.fourUnit  {
+	    width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	.fourUnitImg {
+	    height: 150px;
+	}
+	.globalBtn {
+	    margin-top: 0;
+	}
+	.howItWorks{
+		padding-bottom: 50px;
+	}
+	.asSeenInPlaces a{
+		width: 100%;
+		margin-right: 0;
+	}
+	.asSeenIn{
+		padding: 45px 0 30px;
+    	margin-bottom: 70px;
+	}
+	.siteMapSingleUnit {
+	    width: 100%;
+	    margin-bottom: 40px;
+	}
+	.getStartedForm {
+	    padding-bottom: 40px;
+	}
+	.footer{
+		padding-top: 40px;
+	}
+	.followUs{
+		margin-top: 0;
+	}
+	.experiencesAndOrganizations{
+		padding-top: 50px;
+	}
+	.titleGradient {
+	    font-size: 20px;
+	}
+	.thirdUnitDetails h1{
+		font-size: 18px;
+	}
+	.copyRight {
+	    margin: 0;
+	}
+	form .fullUnit label{
+		text-align: left;
+	}
+	.delete{
+		margin-left: 6px;
+		margin-top: 20px;
+	}
+	.faceBook p {
+	    width: 150px;
+	}
+	.faceBook .globalBtn{
+		margin-top: 15px;
+	}
+	.faceBook{
+		width: calc(100% - 10px);
+	    padding: 12px 5px 12px 5px;
+	}
+	.aSide{
+		margin-right: 5px;
+	}
+	.eventList {
+    	width: calc(100% - 55px);
+	}
+	.oneUnit {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.oneUnit:nth-child(3n) {
+	    margin-right: 0;
+	}
+	.blogDetails {
+	    width: calc(100% - 40px);
+	    padding-right: 10px;
+	}
+	.blogDetails h1{
+		font-size: 30px;
+	}
+	.innerTitle.mainTitle h1 {
+	    margin-bottom: 20px;
+	}
+	.referral .getStartedForm input[type=email]{
+		width: calc(100% - 30px);
+	}
+	.reviews {
+	    margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 475px){
+	.avatar img {
+	    width: 30px;
+	    height: 30px;
+	    margin-top: 6px;
+	}
+	.avatar p{
+		margin-top: 11px;
+	}
+	.avatar p span {
+	    font-size: 11px;
+	}
+	.header.innerPage .menu .logo {
+	    width: 60px;
+	    margin-top: 8px;
+	}
+	.eventList {
+    	width: 100%;
+	}
+	.aSide {
+	    margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	.employeeImage{
+		width: 100px;
+		height: 100px;
+		margin-right: 10px;
+	}
+	.employeesDetails {
+    	width: calc(100% - 114px);
+	}
+	.allShareIcon ul li{
+		width: 100%;
+		text-align: center;
+	}
+	.allShareIcon ul li:nth-child(even) a,
+	.allShareIcon ul li a{
+		float: none;
+		display: inline-block;
+	}
+	.allShareIcon ul li:nth-child(even) {
+		text-align: center;
+	}
+	.shareYourLink{
+		width: 100%;
+	}
+	.shareFTI p{
+		margin-bottom: 15px;
+	}
+	.shareFTI{
+		text-align: center;
+		margin: 5px 0 20px;
+	}
+	.shareFTI p{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.shareIcons{
+		display: inline-block;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 410px){
+	.menu a {
+	    margin-right: 5px;
+	}
+	.otherSide .signUp {
+		padding: 5px 13px;
+		margin-top: 3px;
+		padding-bottom: 5px!important;
+	}
+	.sideMenu {
+	    width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 10px;
+	}
+	.accountSettingHolder {
+	    width: 100%;
+	}
+	.socialAccounts {
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+	.accountSetting .signUpWtithSocialMidea{
+		width: calc(100% - 70px);
+	}
+}
+
+@media screen and (max-width: 360px){
+	.faceBook p{
+		font-size: 12px;
+		width: 110px;
+	}
+	.faceBook .globalBtn {
+    	margin-top: 7px;
+	}
+	.delete {
+    	margin-top: 14px;
+	}
+
+	.innerImage{
+		height: 250px;
+	}
+	.officeAddress {
+	    margin: 0 0 30px;
+	}
+	.feelFree .globalBtn{
+		padding: 16px 30px;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.menu a {
+	    margin-right: 0px;
+	}
+	.otherSide .signUp {
+	    padding: 5px 7px;
+	}
+	.sliderDetailsText h1{
+		font-size: 16px;
+	}
+	.sliderDetailsText span {
+	    font-size: 12px;
+	}
+	form input[type=email],
+	form select{
+		padding: 13px 15px 13px 25px;
+	}
+	.whyUseStep p {
+	    font-size: 11px;
+	}
+	.quarter{
+		padding-bottom: 50px;
+	}
+}

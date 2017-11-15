@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>Rafiki - Event</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/responsive.css">
 	<script src="js/jquery.js"></script>
-	<script src="js/singleEvent.js"></script>
 </head>
 	<body>
 		<div class="header innerPage">
@@ -28,6 +28,99 @@
 		</div>
 		<div class="content singleEvent">
 			<div class="container">
+				<div class="aSide">
+					<div class="sponsor">
+						<div class="sponsorImage">
+							<img src="images/singleEvent/ispark.png">
+						</div>
+						<div class="sponsorDetails">
+							<div class="innerTitle">
+								<h1>iSparkEgypt</h1>
+							</div>
+							<div class="sponsorDescription">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+							</div>
+							<div class="sponsorRate">
+								<p class="rate">
+									<span>4.5</span>
+									<span>/5 </span>
+									|
+									<span>25 </span>
+									<span> reviews</span>
+								</p>
+							</div>
+							<div class="socialIcon">
+								<a href="">
+									<img src="images/singleEvent/faceBook.png">
+								</a>
+								<a href="">
+									<img src="images/singleEvent/insta.png">
+								</a>
+								<a href="">
+									<img src="images/singleEvent/linkedin.png">
+								</a>
+								<a href="">
+									<img src="images/singleEvent/twitterBG.png">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="schedule">
+						<div class="innerTitle">
+							<h1>Schedule</h1>
+						</div>
+						<form>
+							<div class="eventDateAndTime active" id="eventOne">
+								<input type="radio" name="events" value="Thu, 5 Oct. 2017" checked>
+								<label>
+									<p class="eventDate">Thu, 5 Oct. 2017</p>
+									<p class="eventToDate">Sun, 8 Oct</p>
+								</label>
+							</div>
+							<div class="eventDateAndTime" id="eventTwo">
+								<input type="radio" name="events" value="Thu, 5 Oct. 2017">
+								<label>
+									<p class="eventDate">Thu, 5 Oct. 2017</p>
+									<p class="eventToDate">Sun, 8 Oct</p>
+								</label>
+							</div>
+							<div class="numOfTicketsAndPrice" id="eventOneDescription">
+								<div class="numOfTickets">
+									<span id="minus">-</span>
+									<p id="numOfTicket">1</p>
+									<span id="plus">+</span>
+								</div>
+								<p>Tickets</p>
+								<div class="priceOfTicket">
+									<span>EGP</span>
+									<p id="amount">350</p>
+								</div>
+							</div>
+							<input class="globalBtn" type="submit" value="BOOK">
+						</form>
+						<div class="eventStatus">
+							<div class="eventStatusTwoUnit">
+								<div class="eventStatusTwoUnitDetails">
+									<img src="images/singleEvent/calendarGrey.png">
+									<span>Duration</span>
+								</div>
+								<div class="numOfDays">
+									<span>3</span>
+									<span>Days</span>
+								</div>
+							</div>
+							<div class="eventStatusTwoUnit">
+								<div class="eventStatusTwoUnitDetails">
+									<img src="images/singleEvent/people.png">
+									<span>Going</span>
+								</div>
+								<div class="numOfDays">
+									<span>250</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="eventList">
 					<div class="watchVideo">
 						<iframe id="videoId" src="https://www.youtube.com/embed/ApFT_Zzb-wM">
@@ -161,99 +254,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="aSide">
-					<div class="sponsor">
-						<div class="sponsorImage">
-							<img src="images/singleEvent/ispark.png">
-						</div>
-						<div class="sponsorDetails">
-							<div class="innerTitle">
-								<h1>iSparkEgypt</h1>
-							</div>
-							<div class="sponsorDescription">
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-							</div>
-							<div class="sponsorRate">
-								<p class="rate">
-									<span>4.5</span>
-									<span>/5 </span>
-									|
-									<span>25 </span>
-									<span> reviews</span>
-								</p>
-							</div>
-							<div class="socialIcon">
-								<a href="">
-									<img src="images/singleEvent/faceBook.png">
-								</a>
-								<a href="">
-									<img src="images/singleEvent/insta.png">
-								</a>
-								<a href="">
-									<img src="images/singleEvent/linkedin.png">
-								</a>
-								<a href="">
-									<img src="images/singleEvent/twitterBG.png">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="schedule">
-						<div class="innerTitle">
-							<h1>Schedule</h1>
-						</div>
-						<form>
-							<div class="eventDateAndTime active" id="eventOne">
-								<input type="radio" name="events" value="Thu, 5 Oct. 2017" checked>
-								<label>
-									<p class="eventDate">Thu, 5 Oct. 2017</p>
-									<p class="eventToDate">Sun, 8 Oct</p>
-								</label>
-							</div>
-							<div class="eventDateAndTime" id="eventTwo">
-								<input type="radio" name="events" value="Thu, 5 Oct. 2017">
-								<label>
-									<p class="eventDate">Thu, 5 Oct. 2017</p>
-									<p class="eventToDate">Sun, 8 Oct</p>
-								</label>
-							</div>
-							<div class="numOfTicketsAndPrice" id="eventOneDescription">
-								<div class="numOfTickets">
-									<span id="minus">-</span>
-									<p id="numOfTicket">1</p>
-									<span id="plus">+</span>
-								</div>
-								<p>Tickets</p>
-								<div class="priceOfTicket">
-									<span>EGP</span>
-									<p id="amount">350</p>
-								</div>
-							</div>
-							<input class="globalBtn" type="submit" value="BOOK">
-						</form>
-						<div class="eventStatus">
-							<div class="eventStatusTwoUnit">
-								<div class="eventStatusTwoUnitDetails">
-									<img src="images/singleEvent/calendarGrey.png">
-									<span>Duration</span>
-								</div>
-								<div class="numOfDays">
-									<span>3</span>
-									<span>Days</span>
-								</div>
-							</div>
-							<div class="eventStatusTwoUnit">
-								<div class="eventStatusTwoUnitDetails">
-									<img src="images/singleEvent/people.png">
-									<span>Going</span>
-								</div>
-								<div class="numOfDays">
-									<span>250</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 
@@ -381,13 +381,12 @@
 
 
 				$('#plus').click(function() {
-
+				     
 				     var numOfTicket =  parseInt($("#numOfTicket").text());
 				     $('#numOfTicket').text( parseInt($('#numOfTicket').text()) + 1 );
 						var amount =  parseInt($("#amount").text());
-										var total = (numOfTicket + 1) * amount/numOfTicket;
-										console.log(total);
-										$("#amount").text(total);
+						var total = (numOfTicket + 1) * amount/numOfTicket;
+						$("#amount").text(total);
 				});
 
 				$('#minus').click(function() {
@@ -396,11 +395,10 @@
 				    if (numOfTicket > 1) {
 				    	$('#numOfTicket').text( parseInt($('#numOfTicket').text()) - 1 );
 						var amount =  parseInt($("#amount").text());
-										var total = (numOfTicket - 1) * amount/numOfTicket;
-										console.log(total);
-										$("#amount").text(total);
+						var total = (numOfTicket - 1) * amount/numOfTicket;
+						$("#amount").text(total);
 				    }
-
+				     
 				});
 
 
